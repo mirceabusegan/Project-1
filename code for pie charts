@@ -1,0 +1,14 @@
+#Mircea 
+#here I created a loop for all the questions that have 10 or less types of answer
+#I will plot a pie chart related to each question
+
+questions_to_chart = [2,5,20,21]
+for curent_question in questions_to_chart:
+  question = data_file_df.iloc[:, curent_question]
+  response_counts = question.value_counts()
+  column_name = data_file_df.columns
+  plt.figure(figsize=(6, 6))
+  plt.pie(response_counts, labels=response_counts.index, autopct='%1.1f%%', startangle=140)
+  plt.title(column_name[curent_question])
+  plt.axis('equal')  # Equal aspect ratio ensures that pie is drawn as a circle.
+  plt.show()

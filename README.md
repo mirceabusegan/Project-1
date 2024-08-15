@@ -1,0 +1,2 @@
+Project Proposal
+For this project, we will be focusing on the healthcare field. Specifically, we have chosen to work with the OSMI Mental Health in Tech survey (that is provided by kaggle) as a main source of data. We will examine the rate of mental health issues over time, as well the relationships as between geographic location and mental health issue frequency and attitudes. Finally we will determine, the frequency at which workers are able to confidently use mental health resources and feel that it is ok to speak about it.
